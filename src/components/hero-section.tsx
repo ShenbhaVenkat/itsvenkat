@@ -44,7 +44,7 @@ export function HeroSection() {
                             <motion.h1
                                 initial={{ y: "200%" }}
                                 animate={{ y: "0%" }}
-                                transition={{ duration: 3.0, ease: "easeOut" }}
+                                transition={{ duration: 3.0, ease: "easeInOut" }}
                             >
                                 <HoverBorderGradient
                                     containerClassName="rounded-full"
